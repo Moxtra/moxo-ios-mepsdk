@@ -7,22 +7,18 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "MEPSDK",
             targets: ["MEPSDKBinary"]
         )
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "MEPSDKBinary",
-            url: "https://cdn.moxtra.com/mepsdk/dynamic/Dynamic_MEPSDK_iOS_va.b.c.zip",
-            checksum: "CHECKSUM_PLACEHOLDER"
+            url: "https://cdn.moxtra.com/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.6.1.zip",
+            checksum: "698b9d954dc296dffb4f30b4a343debaacc99852699f2683fe453998ed3fb522"
         )
     ]
 )
