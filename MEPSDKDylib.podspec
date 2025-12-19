@@ -8,7 +8,7 @@ MEP(Moxtra Engagement Platform) is a SDK or platform for partners to intergrate 
   DESC
 
   s.homepage = "https://www.moxtra.com"
-  s.license  = { :type => "MIT", :file => "./LICENSE" }
+  s.license  = { :type => "MIT"}
   s.author   = { "john.hu" => "john.hu@moxtra.com" }
 
   s.platform      = :ios, "13.0"

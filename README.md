@@ -61,19 +61,32 @@ Then add the product to your target:
 
 ## CocoaPods
 
+
 Add the following to your Podfile:
 
-pod 'MEPSDKDylib', :git => 'https://github.com/Moxtra/moxo-ios-mepsdk.git', :tag => '10.4.2'
+pod 'MEPSDKDylib',
+    :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/VERSION/MEPSDKDylib.podspec'
+
+Replace VERSION with the Git tag of the SDK release.
+
+Example:
+
+pod 'MEPSDKDylib',
+    :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/10.6.1/MEPSDKDylib.podspec'
 
 Then run:
 
 pod install
 
+Notes:
+This repository repository is an index repository.
+The actual binary (MEPSDK.xcframework) is hosted on Moxo CDN and is downloaded via the podspec.
+Do NOT use :git to integrate this pod.
 ---
 
 ## Versioning
 
-- Git tags correspond to SDK versions (for example: 10.4.2)
+- Git tags correspond to SDK versions (for example: 10.6.1)
 - Each version points to a specific binary release hosted on CDN
 - Upgrading only requires updating the version number
 
