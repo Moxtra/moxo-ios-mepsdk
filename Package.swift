@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MEPSDKBinary",
-            url: "https://cdn.moxtra.com/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.4.2.zip",
-            checksum: "4053c37b4ffd3bb0871953a19b3cac95b5582931286cf0df993aefb5dfb6efec"
+            url: "https://cdn.moxtra.com/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.5.2.zip",
+            checksum: "8df76189b936b5ca446d587e8f54245d2d1d7ad5dbf49ec476acc360340c104b"
         )
     ]
 )

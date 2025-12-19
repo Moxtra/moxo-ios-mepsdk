@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "MEPSDKDylib"
-  s.version     = "10.4.2"
+  s.version     = "10.5.2"
   s.summary     = "Dynamic lib for MEPSDK"
 
   s.description = <<-DESC
@@ -14,9 +14,9 @@ MEP(Moxtra Engagement Platform) is a SDK or platform for partners to intergrate 
   s.platform      = :ios, "13.0"
   s.swift_version = "5.0"
 
-  # SHA256: 4053c37b4ffd3bb0871953a19b3cac95b5582931286cf0df993aefb5dfb6efec
+  # SHA256: 8df76189b936b5ca446d587e8f54245d2d1d7ad5dbf49ec476acc360340c104b
   s.source = {
-    :http => "https://cdn.moxtra.com/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.4.2.zip"
+    :http => "https://cdn.moxtra.com/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.5.2.zip"
   }
 
   s.vendored_frameworks = "MEPSDK.xcframework"
