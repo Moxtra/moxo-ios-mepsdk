@@ -1,3 +1,15 @@
+- [MEPSDKDylib](#mepsdkdylib)
+  * [Requirements](#requirements)
+  * [Swift Package Manager (SPM)](#swift-package-manager-spm)
+    + [Add via Xcode](#add-via-xcode)
+    + [Add via Package.swift](#add-via-packageswift)
+  * [CocoaPods](#cocoapods)
+  * [Versioning](#versioning)
+  * [Notes](#notes)
+  * [Migration guide](#migration-guide)
+  * [Support](#support)
+ 
+
 # MEPSDKDylib
 
 Dynamic lib for Moxo MEPSDK
@@ -101,6 +113,9 @@ Do NOT use :git to integrate this pod.
 - Now it uses a remote binaryTarget URL (with checksum). No script changes are required if you use standard SPM resolution,but your build environment must be able to access https://cdn.moxtra.com/ to download the zip.
 - Please remove any steps that reference or copy ./Common/MEPSDK.xcframework.
 ---
+
+## Migration guide
+Refer [doc](https://github.com/Moxtra/moxo-ios-mepsdk/blob/main/iOS_SDK_Migration_Guide.md)
 
 ## Support
 
