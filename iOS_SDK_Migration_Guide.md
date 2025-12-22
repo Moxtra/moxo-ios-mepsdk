@@ -97,7 +97,7 @@ pod 'MEPSDKDylib',
     :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/10.6.1/MEPSDKDylib.podspec'
 ```
 
-**Important**: Replace `10.6.1` with the specific version you need. See [releases](https://github.com/Moxtra/moxo-ios-mepsdk/releases) for available versions.
+**Important**: Replace `10.6.1` with the specific version you need. See [tags](https://github.com/Moxtra/moxo-ios-mepsdk/tags) for available versions.
 
 **Step 2: Install**
 
