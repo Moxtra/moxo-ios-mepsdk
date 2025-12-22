@@ -8,7 +8,7 @@
     + [Option B: Stay on CocoaPods with Dynamic Library](#option-b-stay-on-cocoapods-with-dynamic-library)
   * [Migration Scenarios](#migration-scenarios)
   * [Detailed Migration Steps](#detailed-migration-steps)
-    + [Scenario 1: CocoaPods Static/Old Dynamic → CocoaPods Dynamic](##scenario-1-cocoapods-staticold-dynamic--cocoapods-dynamic-1)
+    + [Scenario 1: CocoaPods Static/Old Dynamic → CocoaPods Dynamic](#scenario-1-cocoapods-staticold-dynamic--cocoapods-dynamic-1)
     + [Scenario 2: CocoaPods → SPM + Dynamic Library (Recommended Migration)](#scenario-2-cocoapods--spm--dynamic-library-recommended-migration-1)
     + [Scenario 3: SPM Old Repo → SPM New Repo + Dynamic Library](#scenario-3-spm-old-repo--spm-new-repo--dynamic-library-1)
     + [Scenario 4: Manual Installation → SPM or CocoaPods + Dynamic Library](#scenario-4-manual-installation--spm-or-cocoapods--dynamic-library-1)
