@@ -40,46 +40,46 @@ Xcode will automatically download the binary framework from Moxo CDN.
 ### Add via Package.swift
 
 Add the dependency:
-
+```
 dependencies: [
     .package(
         url: "https://github.com/Moxtra/moxo-ios-mepsdk.git",
         from: "10.4.2"
     )
 ]
-
+```
 Then add the product to your target:
-
+```
 .target(
     name: "YourApp",
     dependencies: [
         .product(name: "MEPSDK", package: "moxo-ios-mepsdk")
     ]
 )
-
+```
 ---
 
 ## CocoaPods
 
 
 Add the following to your Podfile:
-
+```
 pod 'MEPSDKDylib',
-    :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/VERSION/MEPSDKDylib.podspec'
-
+    :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/${VERSION}/MEPSDKDylib.podspec'
+```
 Replace VERSION with the Git tag of the SDK release.
 
 Example:
-
+```
 pod 'MEPSDKDylib',
     :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/10.6.1/MEPSDKDylib.podspec'
-
+```
 Then run:
-
+```
 pod install
-
+```
 Notes:
-This repository repository is an index repository.
+This repository is an index repository.
 The actual binary (MEPSDK.xcframework) is hosted on Moxo CDN and is downloaded via the podspec.
 Do NOT use :git to integrate this pod.
 ---
