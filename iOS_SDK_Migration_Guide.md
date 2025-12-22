@@ -289,7 +289,6 @@ Product → Build (Cmd + B)
 #### Current Setup
 - XCFramework manually copied to project
 - Framework manually added to "Frameworks, Libraries, and Embedded Content"
-- Possibly custom React Native or Cordova wrapper
 
 #### Migration Steps
 
@@ -344,37 +343,6 @@ You can choose either **SPM** (recommended) or **CocoaPods** (if your project us
    ```
 
 3. Open the `.xcworkspace` file
-
-**Step 5: Update Custom Wrappers** (if applicable)
-
-If you have custom React Native or Cordova wrappers:
-
-**For React Native:**
-```ruby
-# YourSDKReactNative.podspec
-Pod::Spec.new do |s|
-  s.name         = "YourSDKReactNative"
-  s.version      = "1.0.0"
-  # ... other config
-  
-  # Add dynamic SDK dependency
-  s.dependency "MEPSDKDylib", "~> 10.6.1"
-end
-```
-
-**For Cordova:**
-```xml
-<!-- plugin.xml -->
-<!-- Update framework reference to use podspec -->
-<podspec>
-  <config>
-    <source url="https://github.com/CocoaPods/Specs.git"/>
-  </config>
-  <pods use-frameworks="true">
-    <pod name="MEPSDKDylib" spec="~> 10.6.1" />
-  </pods>
-</podspec>
-```
 
 **Step 6: Rebuild**
 
