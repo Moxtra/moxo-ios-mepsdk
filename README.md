@@ -110,7 +110,7 @@ Do NOT use :git to integrate this pod.
 - SDK binaries are distributed as signed xcframework bundles
 - No additional access control is required to download the SDK
 - Previously the package referenced a local binary at ./Common/MEPSDK.xcframework.
-- Now it uses a remote binaryTarget URL (with checksum). No script changes are required if you use standard SPM resolution,but your build environment must be able to access https://cdn.moxtra.com/ to download the zip.
+- Now it uses a remote binaryTarget URL (with checksum). No script changes are required if you use standard SPM resolution,but your build environment must be able to access https://maven.moxtra.com/ to download the zip.
 - Please remove any steps that reference or copy ./Common/MEPSDK.xcframework.
 ---
 
