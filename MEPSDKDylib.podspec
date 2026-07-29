@@ -16,7 +16,7 @@ MEP(Moxtra Engagement Platform) is a SDK or platform for partners to intergrate 
 
   # SHA256: e962eb2ca48fa816f0e4c10052ebc8b39884f4fb001bdc5ad35fc072c2dff402
   s.source = {
-    :http => "https://maven.moxtra.com/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.5.6.zip"
+    :http => "https://mxrepo.moxo.com/repository/customer-raw-releases/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.5.6.zip"
   }
 
   s.vendored_frameworks = "MEPSDK.xcframework"
