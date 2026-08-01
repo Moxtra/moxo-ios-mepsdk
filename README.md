@@ -28,8 +28,8 @@ The actual SDK binaries are hosted on Moxo CDN and delivered as prebuilt xcframe
 
 ## Requirements
 
-- iOS 13.0 or later
-- Xcode 12 or later
+- iOS 15.0 or later
+- Xcode 16 or later
 - Swift 5 or later
 
 ---
