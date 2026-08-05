@@ -29,7 +29,7 @@ The actual SDK binaries are hosted on Moxo CDN and delivered as prebuilt xcframe
 ## Requirements
 
 - iOS 15.0 or later
-- Xcode 16 or later
+- Xcode 26 or later
 - Swift 5 or later
 
 ---
@@ -42,7 +42,7 @@ The actual SDK binaries are hosted on Moxo CDN and delivered as prebuilt xcframe
 2. Go to File → Add Packages…
 3. Enter the repository URL:https://github.com/Moxtra/moxo-ios-mepsdk.git
 
-4. Select the required version (for example: 10.4.2)
+4. Select the required version (for example: 10.11.1)
 5. Add the MEPSDK library to your target
 
 Xcode will automatically download the binary framework from Moxo CDN.
@@ -56,7 +56,7 @@ Add the dependency:
 dependencies: [
     .package(
         url: "https://github.com/Moxtra/moxo-ios-mepsdk.git",
-        from: "10.4.2"
+        from: "10.11.1"
     )
 ]
 ```
@@ -84,7 +84,7 @@ Replace VERSION with the Git tag of the SDK release.
 Example:
 ```
 pod 'MEPSDKDylib',
-    :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/10.6.1/MEPSDKDylib.podspec'
+    :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/10.11.1/MEPSDKDylib.podspec'
 ```
 Then run:
 ```
@@ -98,7 +98,7 @@ Do NOT use :git to integrate this pod.
 
 ## Versioning
 
-- Git tags correspond to SDK versions (for example: 10.6.1)
+- Git tags correspond to SDK versions (for example: 10.11.1)
 - Each version points to a specific binary release hosted on CDN
 - Upgrading only requires updating the version number
 
