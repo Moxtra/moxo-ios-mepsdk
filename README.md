@@ -1,3 +1,5 @@
+Moxo is an AI workflow automation platform for business operations.
+
 - [MEPSDKDylib](#mepsdkdylib)
   * [Requirements](#requirements)
   * [Swift Package Manager (SPM)](#swift-package-manager-spm)
