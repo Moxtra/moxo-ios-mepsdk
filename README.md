@@ -16,7 +16,6 @@ Moxo is an AI workflow automation platform for business operations.
 
 Dynamic lib for Moxo MEPSDK
 
-
 This repository is the distribution index for the Moxo iOS MEPSDK.
 
 It provides:
@@ -42,9 +41,9 @@ The actual SDK binaries are hosted on Moxo CDN and delivered as prebuilt xcframe
 
 1. Open your project in Xcode
 2. Go to File → Add Packages…
-3. Enter the repository URL:https://github.com/Moxtra/moxo-ios-mepsdk.git
+3. Enter the repository URL: https://github.com/Moxtra/moxo-ios-mepsdk.git
 
-4. Select the required version (for example: 10.11.1)
+4. Select the required version (for example: 10.12.1)
 5. Add the MEPSDK library to your target
 
 Xcode will automatically download the binary framework from Moxo CDN.
@@ -58,7 +57,7 @@ Add the dependency:
 dependencies: [
     .package(
         url: "https://github.com/Moxtra/moxo-ios-mepsdk.git",
-        from: "10.11.1"
+        from: "10.12.1"
     )
 ]
 ```
@@ -100,7 +99,7 @@ Do NOT use :git to integrate this pod.
 
 ## Versioning
 
-- Git tags correspond to SDK versions (for example: 10.11.1)
+- Git tags correspond to SDK versions (for example: 10.12.1)
 - Each version points to a specific binary release hosted on CDN
 - Upgrading only requires updating the version number
 
