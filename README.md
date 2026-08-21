@@ -85,7 +85,7 @@ Replace VERSION with the Git tag of the SDK release.
 Example:
 ```
 pod 'MEPSDKDylib',
-    :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/10.11.1/MEPSDKDylib.podspec'
+    :podspec => 'https://raw.githubusercontent.com/Moxtra/moxo-ios-mepsdk/10.12.1/MEPSDKDylib.podspec'
 ```
 Then run:
 ```
