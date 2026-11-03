@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "MEPSDKDylib"
-  s.version     = "10.13.1"
+  s.version     = "10.13.2"
   s.summary     = "Dynamic iOS SDK for the Moxo Engagement Platform"
 
   s.description = <<-DESC
@@ -14,9 +14,9 @@ MEP (Moxo Engagement Platform) is an SDK that enables partners to integrate Moxo
   s.platform      = :ios, "15.0"
   s.swift_version = "5.0"
 
-  # SHA256: c224924d61692ac7f670afd43c72b4f46db1d298d770eaeb6cf58a0f9cc69cf5
+  # SHA256: 35cc3a0c72817b53bdae495fb926d76bd093a133a52e979cc5551e234be957e7
   s.source = {
-    :http => "https://mxrepo.moxo.com/repository/customer-raw-releases/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.13.1.zip"
+    :http => "https://mxrepo.moxo.com/repository/customer-raw-releases/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.13.2.zip"
   }
 
   s.vendored_frameworks = "MEPSDK.xcframework"
