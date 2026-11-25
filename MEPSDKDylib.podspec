@@ -14,7 +14,7 @@ MEP (Moxo Engagement Platform) is an SDK that enables partners to integrate Moxo
   s.platform      = :ios, "15.0"
   s.swift_version = "5.0"
 
-  # SHA256: 8748ecd061c69e0debf4fad5672b58ee18f7d7a5dc1c94fe4d4fc87c93cf1838
+  # SHA256: c855ee4b05e62d532ff174825610e79a5deba646aec26c91692b03c9f0fa3af8
   s.source = {
     :http => "https://mxrepo.moxo.com/repository/customer-raw-releases/mepsdk/dynamic/Dynamic_MEPSDK_iOS_v10.13.4.zip"
   }
